@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+   
+    <link rel="stylesheet" href="sass/custom.css">
+    <link rel="stylesheet" href="plugin/whatsapp-chat-support.css">
+
+    <title>DACAPHARMA</title>
+  </head>
+  <body>
+   
+    <!--Navbar-->
+
+    <nav id="navbar-example3" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <img src="img/dacapharma.jpg"  alt="" width="200" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active text-dark" aria-current="page">Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="nosotros.html" class="nav-link text-dark">Nosotros
+                        </a>
+                    </li>      
+                    <li class="nav-item">
+                        <a href="privacidad.html" class="nav-link text-dark">Políticas
+                        </a>
+                    </li>              
+                    <li class="nav-item">
+                        <a href="contactenos.html" class="nav-link text-dark">Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Fin Navbar-->
+
+    <!--FORMULARIO-->
+
+     <main class="bg-light container py-5">
+        <h1 class="text-center text-dark py-5 display-6">Contacto</h1>       
+        <div>
+            <form action="" class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                    <label for="text-1" class="form-label text-dark">Nombre</label>
+                    <input type="text"
+                            id="text-1"
+                            class="form-control"
+                            placeholder="Ingrese su nombre"
+                            required>
+                    <div class="invalid-feedback">Coloque su nombre</div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="text-2" class="form-label text-dark">Nombre empresa</label>
+                    <input type="text"
+                            id="text-2"
+                            class="form-control"
+                            placeholder="Ingrese nombre de la empresa"
+                            required>
+                            <div class="invalid-feedback">Coloque el nombre de la empresa en caso que sea persona natural coloque XXXXXX</div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="text-3" class="form-label text-dark">Correo</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="iconoUserName">@</span>
+                        <input type="text"
+                                required
+                                class="form-control"
+                                id="text-3"
+                                aria-describedby="iconoUserName"
+                                placeholder="Ingrese su correo">
+                        <div class="invalid-feedback">Coloque su correo</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="text-4" class="form-label text-dark">Asunto</label>
+                    <input type="text"
+                            id="text-4"
+                            class="form-control"
+                            placeholder="¿Cuál es el asunto para su mensaje?"
+                            required>
+                    <div class="invalid-feedback">Coloque el asunto</div>
+                </div>
+                <div class="col-md-6">
+                    <label for="text-5" class="form-label text-dark">Ciudad</label>
+                    <select name="" id="text-5" class="form-select" required>
+                        <option value="" selected disabled>Seleccionar ciudad</option>
+                        <option value="">Barranquilla</option>
+                        <option value="">Bogotá</option>
+                        <option value="">Medellin</option>
+                    </select>
+                
+                <div class="invalid-feedback">Selecciona una Ciudad</div>
+            </div>
+                <div class="col-md-12">
+                    <label for="text-6" class="form-label text-dark">Mensaje</label>
+                    <textarea class="form-control" id="text-6"
+                             placeholder="Ingrese el mensaje..Favor en caso de cotizar productos describir con el mayor detalle posible" 
+                             required></textarea>
+                    <div class="invalid-feedback">
+                      Coloque el mensaje a enviar
+                    </div>
+                </div>
+                <p class="lead text-center">
+                    Autorizo a <strong>DACAPHARMA S.A.S. </strong> para que haga uso de mis datos personales, en los diferentes procesos administrativos y
+                    de carácter comercial para los cuales la Institución ha sido facultada, en cumplimiento de su objeto social y 
+                    en virtud de las relaciones comerciales que de allí puedan desarrollarse. 
+                    
+                </p>  
+                
+                <div class="col-12">
+                    <div class="form-check">
+                        <input type="checkbox"
+                                class="form-check-input"
+                                value=""
+                                id="text-7"
+                                required>
+                        <label for="text-7" class="form-check-label text-dark">Acepte las políticas de tratamiento de datos</label>
+                        <div class="invalid-feedback">
+                            Acepte las Condiciones
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit"
+                            class="btn btn-success"
+                            >
+                        Procesar...
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+     <!--FIN FORMULARIO-->
+
+        <!--Footer-->
+        <footer class="container-fluid py-3 text-center text-light">
+       
+            <div class="container">
+                <div class="row text-center">
+                    <a href="" class="navbar-brand">
+                        <img src="img/logo.png"  alt="" width="400" height="150">
+                    </a>
+                </div>           
+                <div class="row text-center">
+                    <h4 class="text-center text-secondary display-6 py-2">Información de contacto</h4>
+                    <div class="col-12 col-md-4 mb-5 py-2"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(86, 191, 172, 1);">
+                            <path d="M12 2C7.589 2 4 5.589 4 9.995 3.971 16.44 11.696 21.784 12 22c0 0 8.029-5.56 8-12 0-4.411-3.589-8-8-8zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"></path>
+                        </svg> <h4 class="text-center text-secondary py-3">Via 40 # 69-58 Oficina A7, Parque Comercial e Industrial Via 40 Colombia-Barranquilla</h4>
+                    </div>
+                    <div class="col-12 col-md-4 mb-5 py-2"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(86, 191, 172, 1);">
+                            <path d="M17 2H7c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM7 16.999V5h10l.002 11.999H7z"></path>
+                        </svg> <h4 class="text-center text-secondary  py-3">+(57) 3851353 -</h4>
+                    </div> 
+                    <div class="col-12 col-md-4 mb-5 py-2"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(86, 191, 172, 1);">
+                            <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path>
+                        </svg> <h4 class="text-center text-secondary  py-3">gerencia@dacapharma.com </h4>          
+                    </div>    
+                </div>
+                <div class="row text-center">
+                    <h4 class="text-center text-secondary">@2022 Todos los derechos Reservados. <a href="privacidad.html" class="text-secondary">Aviso de privacidad</a></h4>
+                </div>
+             </div>
+        </footer>
+    
+
+     <!--Fin Footer-->
+   <!-- Icono whatsapp-->
+<div class="whatsapp_chat_support wcs_fixed_right" id="button-w">
+            
+    <div class="wcs_button wcs_button_circle">
+        <span class="fa fa-whatsapp"></span>
+    </div>  
+ 
+    <div class="wcs_popup">
+        <div class="wcs_popup_close">
+            <span class="fa fa-close"></span>
+        </div>
+        <div class="wcs_popup_header">
+            <span class="fa fa-whatsapp"></span>
+            <strong>Servicio de Venta</strong>
+            
+            <div class="wcs_popup_header_description">¿Necesidad de ayuda? Chatea con nosotros o Whatsapp</div>
+
+        </div>  
+        <div class="wcs_popup_input" 
+            data-number="573004096136"
+            data-availability='{ "monday":"08:00-16:59", "tuesday":"08:00-16:59", "wednesday":"08:00-16:59", "thursday":"08:00-16:59", "friday":"08:00-16:59", "saturday":"08:00-10:59", "sunday":"00:00-00:00" }'>
+            <input type="text" placeholder="Escribir pregunta!" />
+            <i class="fa fa-play"></i>
+        </div>
+         
+    </div>
+</div>
+
+<!-- Fin Icono whatsapp-->
+
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="plugin/components/moment/moment.min.js"></script>
+<script src="plugin/components/moment/moment-timezone-with-data.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fontawesome.js"></script>
+<script src="plugin/whatsapp-chat-support.js"></script>
+<script>
+$('#button-w').whatsappChatSupport({
+        defaultMsg : '',
+    });
+</script>
+
+
+</body>
+</html>
